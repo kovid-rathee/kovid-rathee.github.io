@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "git init"
 date:   2018-04-08 13:31:31 +0530
 categories: jekyll update
 ---

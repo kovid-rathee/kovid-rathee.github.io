@@ -5,16 +5,16 @@ date:   2018-04-08 13:31:31 +0530
 categories: jekyll update
 ---
 
-The top four relational database management systems of today are MySQL, Oracle,
-SQL Server and PostgreSQL. MySQL is the only one which doesn't support lead/lag
-functionality. Lead and lag are functions which come in handy when you have to
-peek into the next record while processing the current one. You can immediately
-think of an example where this would be required. We'll talk about one of the
-most prominent applications of this, i.e., finding out next order date(and
-hence, the number of days since last order). Here's how you find this out in
-MySQL:
+Out of the most popular relational database management systems, MySQL is the
+only one which doesn't support lead/lag functionality. Lead and lag are
+functions which come in handy when you have to peek into the next record while
+processing the current one. You can immediately think of an example where this
+would be required. We'll talk about one of the most prominent applications of
+this, i.e., finding out next order date(and hence, the number of days since
+last order). Here's how you find this out in MySQL:
 
 {% highlight sql %}
+
 select f.order_id,
        f.customer_id,
        f.price,
@@ -41,7 +41,11 @@ select 7 order_id, 242, 4384 price, '2018-03-15' union all
 select 8 order_id, 242, 362 price, '2018-04-03') o,
 (select @cumulative_spending := 0, @previous_order_date:= null) cp
 ) f;
+
 {% endhighlight %}
+
+Here's the [SQL Fiddle]: http://www.sqlfiddle.com/#!9/9eecb/26319, in case you
+work with SQL fiddle a lot.
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 

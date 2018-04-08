@@ -1,15 +1,18 @@
 ---
 layout: post
-title:  "git init"
+title:  "Emulating lead/lag functions in MySQL"
 date:   2018-04-08 13:31:31 +0530
 categories: jekyll update
 ---
 
-
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
+The top four relational database management systems of today are MySQL, Oracle,
+SQL Server and PostgreSQL. MySQL is the only one which doesn't support lead/lag
+functionality. Lead and lag are functions which come in handy when you have to
+peek into the next record while processing the current one. You can immediately
+think of an example where this would be required. We'll talk about one of the
+most prominent applications of this, i.e., finding out next order date(and
+hence, the number of days since last order). Here's how you find this out in
+MySQL:
 
 {% highlight sql %}
 select f.order_id,

@@ -44,11 +44,9 @@ select 8 order_id, 242, 362 price, '2018-04-03') o,
 
 {% endhighlight %}
 
-Here's the [SQL Fiddle]: http://www.sqlfiddle.com/#!9/9eecb/26319, in case you
-work with SQL fiddle a lot.
+You can find the code snippet [here][sql-fiddle] too.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+> यूँ जो ताकता है आसमान को तू
+> कोई रहता है आसमान में क्या 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[sql-fiddle]: http://www.sqlfiddle.com/#!9/9eecb/26319

@@ -13,10 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Music, Poetry and Science
 email: kovid.rathee@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Here I write about things I like, things I care about and things that have
+  I write about things I like, things I care about and things that have
   consumed me over the past couple of years. The list of such things keeps
   getting updated. For instance, cricket is no more a thing I care about.
   Although, it consumed me at one point in time.

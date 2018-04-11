@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am Data Engineer by profession, working for a transportation & logistics
+startup called Shuttl. We are trying to enable stress-free commute for the
+working class.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I do have experience working for a variety of businesses. Prior to this I have
+worked with a Customer Experience Management platform, an all-in-one app,
+a consumer micro-finance company, a software services company and an engineering college.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
+*Disclaimer: Views or opinions expressed on this blog are solely my own and do not necessarily express the views or opinions of my current or past employer(s).*
 
 [jekyll-organization]: https://github.com/jekyll
